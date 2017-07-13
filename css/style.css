@@ -1,44 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
 body {
-  background-color: black;
+  color: #4a3a2d;
+  background-color: #e1e3b8;
 }
 
-.tContainer {
-  display: table;
-  width: 100%;
+p {
+  font-family: sans-serif;
 }
 
-.container {
-  display: table-cell;
-  vertical-align: middle;
+header {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 0px;
+  padding: 20px;
+  background-color: #ffffea;
 }
 
-.hole {
-  width: 262px;
-  height: 320px;
-  margin: 2% auto;
-  background: url(../img/hole.png) left center;
-  animation: play 1.15s steps(10) infinite;
-}
-
-@keyframes play {
-   100% { background-position: -2620px; }
-}
-
-#main p {
-  color: white;
-  font-size: 48px;
-  text-align: center;
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffea;
 }
 
 footer {
   width: 90%;
+  max-width: 900px;
   margin: auto;
-  border-top: white 2px solid;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  background-color: #ffffea;
+  border-top: #554327 2px solid;
   text-align: left;
-  color: white;
+  font-size: 12px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: auto;
+}
+
+header h1 .titlep1 {
+  font-family: 'Boogaloo', cursive;
+  color: #AF484A;
+}
+
+header h1 .titlep2 {
+  font-family: 'Zilla Slab', serif;
+  color: #99B652;
+}
+
+header p {
+  font-family: 'Francois One', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin-top: auto;
+}
+
+.getapp {
+  text-align: center;
+}
+
+.banner {
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #4a3a2d;
+  border-radius: 7px;
+}
+
+.banner h3 {
+  font-family: 'Francois One', sans-serif;
+  font-size: 15px;
+  margin-top: 0px;
+}
+.banner a img {
+  width: 250px;
+}
+
+.features h2 {
+  font-family: 'Francois One', sans-serif;
+  border-bottom: #4a3a2d 2px solid;
+}
+
+.features ul {
+  font-family: sans-serif;
+}
+
+.screenshots h2 {
+  font-family: 'Francois One', sans-serif;
+  border-bottom: #4a3a2d 2px solid;
+}
+
+.screenshots ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.screenshots ul li {
+  width: 280px;
+  min-height: 100px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.screenshots ul li a img {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #4a3a2d;
+  border-radius: 5px;
 }
 
 footer a {
-  color: azure;
   text-decoration: none;
 }
