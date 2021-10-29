@@ -20,6 +20,10 @@ header {
   background-color: #ffffea;
 }
 
+header a {
+  text-decoration: none;
+}
+
 main {
   width: 90%;
   max-width: 900px;
@@ -116,6 +120,10 @@ header p {
   padding: 3px;
   border: 1px solid #4a3a2d;
   border-radius: 5px;
+}
+
+footer {
+  text-align: center;
 }
 
 footer a {
