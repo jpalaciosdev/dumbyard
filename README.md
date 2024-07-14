@@ -43,5 +43,5 @@ Have fun!
 ## Privacy Policy
 This game does not collect, process or share any type of user data.
 
-## About this game & contact info
+## Contact info
 Created by [Juan Palacios](mailto:jpalaciosdev@gmail.com). Copyright © 2017-2024.
